@@ -8,7 +8,7 @@ export const verifyCollegeWiFi = (req, res, next) => {
     // Log the incoming IP to your terminal so you can see it!
     console.log("📡 Scan Attempt from IP:", clientIp);
 
-    const myCurrentIp = "152.58.24.149";
+    const myCurrentIp = "1.187.161.60";
 
     if (
       process.env.NODE_ENV === "test" ||
