@@ -34,7 +34,7 @@ const allowedOrigins =
   process.env.NODE_ENV === "production"
     ? [
         "https://last-minute-scsit.vercel.app",
-        "https://lastminutescsit-api.vercel.app",
+        "https://lastminute-scsit-api.vercel.app",
         "https://lastminutescsit.vercel.app",
       ]
     : [

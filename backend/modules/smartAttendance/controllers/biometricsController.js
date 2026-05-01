@@ -7,8 +7,8 @@ import {
 import { User } from '../../../models/user.model.js';
 
 // ⚠️ CHANGE THESE IN PRODUCTION
-const rpID = process.env.NODE_ENV === 'production' ? 'lastminutescsit.vercel.app' : 'localhost';
-const expectedOrigin = process.env.NODE_ENV === 'production' ? 'https://lastminutescsit.vercel.app' : 'http://localhost:5173';
+const rpID = process.env.NODE_ENV === 'production' ? 'last-minute-scsit.vercel.app' : 'localhost';
+const expectedOrigin = process.env.NODE_ENV === 'production' ? 'https://last-minute-scsit.vercel.app' : 'http://localhost:5173';
 
 // ── 1. SETUP FINGERPRINT (Registration) ───────────────────────────────────
 export const generateRegistration = async (req, res) => {
