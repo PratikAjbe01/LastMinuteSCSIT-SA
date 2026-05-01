@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.react-select__menu{
+  z-index: 9999 !important;
+}
+.react-select__menu-list{
+  z-index: 9999 !important;
+}
+.react-select__option{
+  z-index: 9999 !important;
+}
+
+img {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+
+/* === Enhanced Modern Scrollbar === */
+
+/* For WebKit-based browsers (Chrome, Safari, Edge, etc.) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 41, 59, 0.5); /* A subtle, semi-transparent dark thumb */
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(16, 185, 129, 0.8); /* Your emerald green accent on hover */
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 185, 129, 0.8) transparent;
+}
+
+.rdp-root {
+  color: white !important;
+}
